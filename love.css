@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+#logo{
+	float: left;
+}
+#top{
+	width: 1200;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+#top p:first-child{
+	float: left;
+	font: bold 40px MicrosoftYaHei-Bold;
+	color: #00A3FF;
+	margin-right: 80px;
+}
+#top li{
+	float: left;
+	font: 18px MicrosoftYaHei;
+	margin: 0 50px;
+	padding: 10px 0;
+}
+#top li:first-child{
+	border-bottom: 2px solid #00A3FF;
+}
+#top input{
+	margin-left: 80px;
+	height: 40px;
+	width: 240px;
+	position: relative;
+	top: -18px;
+	right: -5px;
+}
+#top img{
+	padding: 12px 12px;
+	background-color: #00A3FF;
+	
+}
+#top a:last-child{
+	float: right;
+	font: 14px MicrosoftYaHei;
+	padding: 10px 0;
+}
+.body background{
+	width: 100%;
+}
+
+
+.ad{
+	width: 1980px;
+	height: 200px;
+	margin: auto;
+}
+.banner{
+	width:80%; 
+}
+
+.Game{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.Game ul{
+	width: 1200px;
+	height: 300px;
+	margin-top: 20px;
+}
+.Game ul li{
+	width: 500px;
+	height: 300px;
+	float: left;
+	margin-right: 3px;
+	margin-bottom: 15px;
+	box-shadow:2px 2px 2px 0px rgba(118,118,118,0.2);
+}
+.Game li p{
+	width: 185px;
+	margin: 12px 23px;
+	font: 14px MicrosoftYaHei;
+}
+
+
+.nav ul li{
+	float: left;
+	font: bold 18px MicrosoftYaHei-Bold;
+	color: #00A3FF;
+	margin-right: 80px;
+
+}
+
+.nav ul li ul li{
+   			display: none;
+   			width: 120px;
+   			height:0px;
+   			float: initial;
+   			background: rgba(1, 163,164,1);
+   			font-size: 10px;
+   			transition: 0.5s;
+   		}
+.nav ul li:hover ul li{
+   			display: block;   
+   			height: 30px;
+   			border-top: 1px solid rgba(72, 219, 251, 0.5);
+   			position: relative;
+   			opacity: 0.8;
+   		}
+
+
+
+
+
+
+
+
+.bottom{
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 100px;
+}
+.bottom div,.bottom ul{
+	float: left;
+}
+.bottom div p:first-child{
+	font: bold 36px MicrosoftYaHei-Bold;
+	color: #00A3FF;
+}
+.bottom div p:nth-child(2){
+	font: 12px SimSun;
+	color: #656565;
+	margin: 20px 0;
+}
+.bottom div button{
+	width: 120px;
+	height: 36px;
+	border: 1px solid #00A3FF;
+	color: #00A3FF;
+	background-color: rgba(0, 0, 0, 0);
+}
+.bottom li{
+	font: 12px SimSun;
+	margin: 7px 55px;
+}
+.bottom ul:nth-child(2){
+	margin-left: 230px;
+}
+.bottom ul li:first-child{
+	font: 16px MicrosoftYaHei;
+}
+
+
+#botm{
+			height: 120px;
+			background-color: #000;
+		}
+
+#botto{
+			font-size: 18px;
+			padding-top: 50px;
+			color: #fff;
+		}
